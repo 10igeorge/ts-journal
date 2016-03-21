@@ -33,6 +33,12 @@ module Journal {
     downVote(){
       this.votes-=1;
     }
+    //get method?
+
+    getVotes() {
+      return this.votes;
+    }
+
     countWords(){
       var words = this.body.split(" ").length;
       this.wordCount = words;
