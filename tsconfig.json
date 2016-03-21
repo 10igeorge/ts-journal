@@ -1,0 +1,12 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "rootDir": "app",
+    "out": "build/js/app.js"
+  },
+  "files": [
+    "journal-classes.ts",
+    "journal-create-entries.ts",
+    "entry-people.ts"
+  ]
+}
